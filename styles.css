@@ -1,0 +1,242 @@
+.header {
+    background: linear-gradient(to left top, rgba(46, 46, 46, 0.434), rgba(91, 91, 91, 0.484));
+    padding: 40px;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 62px;
+    font-family: Josefin Sans, sans-serif;
+}
+.descryption {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    font-family: Josefin Sans, sans-serif;
+}
+
+.choose:hover {
+    background-color: #5555557b;
+}
+
+.site {
+    background: linear-gradient(to left top, rgb(0, 123, 255), rgba(152, 0, 253, 0.555));
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.board {
+    width: 1000px;
+    height: 300px;
+    background: linear-gradient(to left top, rgba(46, 46, 46, 0.434), rgba(91, 91, 91, 0.484));
+    transition: all 0.5s linear;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+.board:hover {
+    background-color: #5555557b;
+}
+
+.panel {
+    color: white;
+    text-align: center;
+    font-size: 52px;
+    font-family: Josefin Sans, sans-serif;
+}
+
+#footer {
+    background: linear-gradient(to left top, rgba(46, 46, 46, 0.434), rgba(91, 91, 91, 0.484));
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+.title {
+    font-size: 52px;
+     
+    }
+.descryption {
+    font-size: 18px;
+}
+a {
+    font-size: 20px;
+}
+.board {
+    width: 950px;
+    height: 280px;
+}
+.panel {
+    font-size: 48px;
+}
+
+}
+
+
+/* 1000px */
+
+
+@media only screen and (max-width: 1000px) {
+.title {
+        font-size: 42px;
+
+    }
+.descryption {
+    font-size: 16px;
+}
+a {
+    font-size: 18px;
+}
+.board {
+    width: 800px;
+    height: 250px;
+}
+.panel {
+    font-size: 40px;
+}
+
+}
+
+
+
+/* 900px*/
+
+@media only screen and (max-width: 900px) {
+.title {
+        font-size: 35px;
+
+    }
+.descryption {
+        font-size: 14px;
+    }
+a {
+    font-size: 16px;
+}
+.board {
+    width: 650px;
+    height: 230px;
+}
+.panel {
+    font-size: 35px;
+}
+
+}
+
+
+/* 730 px */
+
+
+@media only screen and (max-width: 730px) {
+    .title {
+            font-size: 30px;
+    
+        }
+    .descryption {
+        font-size: 12px;
+    }
+    a {
+        font-size: 14px;
+    }
+    .board {
+    width: 450px;
+    height: 200px;
+    }
+    .panel {
+        font-size: 25px;
+    }
+
+}
+
+
+/* 450px iphone*/
+
+@media only screen and (max-width: 450px) {
+.title {
+        font-size: 25px;
+
+    }
+.descryption {
+        font-size: 10px;
+    }
+a {
+    font-size: 12px;
+}
+.board {
+    width: 290px;
+    height: 140px;
+}
+.panel {
+    font-size: 20px;
+}
+
+}
+
+/* 350 px */
+
+
+@media only screen and (max-width: 350px) {
+.title {
+        font-size: 20px;
+
+    }
+    .descryption {
+        font-size: 8px;
+    }
+a {
+    font-size: 10px;
+}
+.board {
+    width: 240px;
+    height: 120px;
+}
+.panel {
+    font-size: 15px;
+}
+
+}
+
+@media only screen and (max-width: 300px) {
+    .title {
+        font-size: 18px;
+
+    }
+
+    .descryption {
+        font-size: 7px;
+    }
+
+    a {
+        font-size: 8px;
+    }
+
+    .board {
+        width: 230px;
+        height: 100px;
+    }
+
+    .panel {
+        font-size: 10px;
+    }
+
+}
